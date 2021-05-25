@@ -1,5 +1,6 @@
 # Heatmap Masking clustering
 ## Examples
+![](HMC.png)
 ```
 ## Following code to generate datasets is copied from https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
 
