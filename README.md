@@ -1,4 +1,21 @@
 # Heatmap Masking Clustering
+The heatmap masking clustering(HMC) is a clustering method based on masking the heatmap generated from the data and the partition of the data space using the mask. 
+
+## Usage
+```
+>>> data = np.array([
+    [0.1,2],
+    [0.2,2],
+    [0.5,5],
+    [0.7,7]
+])
+>>> cluster = HeatmapClustering([0,0],[1,10],[12,12],0.1,0.1,2,1,10)
+>>> cluster.feed(data)
+>>> cluster.segment()
+>>> print(cluster.predict([[0.6,6]]))
+[2]
+```
+
 ## Examples
 ![](HMC.png)
 ## Code
