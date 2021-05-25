@@ -1,5 +1,5 @@
 # Heatmap Masking clustering
-
+## Example
 ```
 import numpy as np
 import matplotlib.pyplot as plt
