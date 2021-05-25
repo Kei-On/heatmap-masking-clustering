@@ -14,6 +14,7 @@ The heatmap masking clustering(HMC) is a clustering method based on masking the 
 >>> cluster.segment()
 >>> print(cluster.predict([[0.6,6]]))
 [2 3 1]
+>>> 
 >>> print(cluster.mask)
 [[0 0 0 0 0 0 0 0 0 0 0 0]
  [0 0 0 0 0 0 0 0 0 0 0 0]
@@ -27,6 +28,7 @@ The heatmap masking clustering(HMC) is a clustering method based on masking the 
  [0 0 0 0 0 0 0 0 0 0 0 0]
  [0 0 0 0 0 0 0 0 0 0 0 0]
  [0 0 0 0 0 0 0 0 0 0 0 0]]
+>>> 
 >>> print(cluster.partition)
 [[1 1 1 1 1 1 1 1 1 1 2 2]
  [1 1 1 1 1 1 1 1 1 2 2 2]
