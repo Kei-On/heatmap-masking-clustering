@@ -46,7 +46,7 @@ The heatmap masking clustering(HMC) is a clustering method based on masking the 
 
 ## Examples
 ![](HMC.png)
-## Code
+### Code
 ```
 ## The code to generate the datasets is copied from https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
 
