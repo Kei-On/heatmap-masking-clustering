@@ -1,5 +1,5 @@
 # Heatmap Masking Clustering
-The heatmap masking clustering(HMC) is a clustering method based on masking the heatmap generated from the data and the partition of the data space using the mask, proposed by Qi. 
+The heatmap masking clustering(HMC) is a clustering method based on masking the heatmap generated from the data and the partition of the data space using the mask, proposed by the creater of this repo. 
 
 ## Usage
 ```
