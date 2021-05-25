@@ -1,8 +1,9 @@
 # Heatmap Masking Clustering
 ## Examples
 ![](HMC.png)
+## Code
 ```
-## Following code to generate datasets is copied from https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
+## The code to generate the datasets is copied from https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
 
 import numpy as np
 import matplotlib.pyplot as plt
