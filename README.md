@@ -1,6 +1,8 @@
 # Heatmap Masking clustering
 ## Examples
 ```
+## Following code to generate datasets is copied from https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -26,7 +28,7 @@ aniso = (X_aniso, y)
 varied = datasets.make_blobs(n_samples=n_samples,
                              cluster_std=[1.0, 2.5, 0.5],
                              random_state=random_state)
-                             
+
 colors = ['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']
 
 datasets = [
