@@ -1,4 +1,4 @@
-# Heatmap Masking clustering
+# Heatmap Masking Clustering
 ## Examples
 ![](HMC.png)
 ```
